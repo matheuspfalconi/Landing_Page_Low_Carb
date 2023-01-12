@@ -1,0 +1,130 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Sofia Sans', sans-serif;
+}
+
+main {
+	width: 350px;
+	height: 95%;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+
+	background-color: #161B22;
+	border-radius: 10px;
+	box-shadow: 0 0 5px black;
+
+	padding: 30px;
+}
+
+.div_title, .div_login {
+	width: 100%;
+}
+
+.div_title {
+	padding: 10px 0;
+	border-bottom: 1px solid gray;
+}
+
+.div_title > h1 {
+	padding: 0 20px;
+	margin-bottom: 10px;
+
+	text-align: center;
+	color: #cc4527;
+}
+
+.div_img {
+	width: 100%;
+	height: auto;
+
+	display: flex;
+	justify-content: center;
+	margin-top: -20px;
+}
+
+.div_img > img {
+	width: 150px;
+}
+
+.div_title > p {
+	text-align: center;
+}
+
+.div_social {
+	padding: 20px 0 10px 0;
+}
+
+.div_social :first-child {
+	margin-bottom: 10px;
+}
+
+.button {
+	width: 100%;
+	height: 25px;
+
+	border-radius: 2px;
+}
+
+.button_facebook {
+	background-color: #1877F2;
+}
+
+.button_google {
+	background-color: #cc4527;
+}
+
+.div_or {
+	display: flex;
+	flex-wrap: nowrap;
+	column-gap: 10px;
+}
+
+.line {
+	width: 100%;
+	height: 1px;
+
+	margin-top: 8px;
+
+	border-bottom: 1px solid gray;
+}
+
+.div_form {
+	padding: 10px 0;
+}
+
+.item_form {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 10px;
+}
+
+.item_form > label {
+	width: 100%;
+	margin-bottom: 2px;
+}
+
+.item_form > input {
+	width: 100%;
+	max-height: 25px;
+	height: 25px;
+	padding-left: 5px;
+
+	border: none;
+	border-radius: 2px;
+}
+
+form > input {
+	width: 100%;
+	height: 50px;
+
+	background-color: #cc4527;
+	border: none;
+	border-radius: 2px;
+
+	color: white;
+}
